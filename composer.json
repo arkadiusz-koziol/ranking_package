@@ -1,0 +1,30 @@
+{
+    "name": "akoziol/ranking_package",
+    "description": "A customizable ranking package for Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Akoziol\\RankingPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "akoziol",
+            "email": "arkadiuszkoziol2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^10.0",
+        "maatwebsite/excel": "^3.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akoziol\\RankingPackage\\RankingServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
